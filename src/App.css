@@ -1,0 +1,70 @@
+.center-div {
+  position: absolute;
+  margin: auto;
+  top: 10px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 95%;
+  height: 93%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  border-radius: 40px;
+}
+
+.center-div::-webkit-scrollbar {
+  display: none;
+}
+
+.font-heading {
+  font-family: sans-serif;
+  color: #24d39b;
+  font-weight: 749;
+}
+
+.font-sub {
+  font-family: sans-serif;
+  color: #1c45a4;
+  font-weight: 740;
+}
+.size {
+  width: 50%;
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background {
+  background-image: url("/src/Assets/backgrondPhoto.png");
+}
+body {
+  overflow: hidden;
+}
+
+/* for tablets and mobile views */
+
+@media only screen and (max-width: 1280px) {
+  .hide {
+    display: none;
+  }
+  .footer {
+    margin: 10%;
+  }
+  .m {
+    margin: 7%;
+  }
+  .responsive {
+    max-width: 90%;
+  }
+}
+
+.menu {
+  margin-left: 7%;
+  margin-bottom: 0px;
+  padding: 2%;
+  color: #5046af;
+  font-weight: bold;
+  opacity: 0.9;
+}
