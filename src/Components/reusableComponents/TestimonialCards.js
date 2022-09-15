@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from "react"; // the file is used to import ALL the libraries of react 
 
 class TestimonialCards extends Component {
   render() {
